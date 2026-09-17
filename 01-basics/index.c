@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-int main() {
-    int n = 0;
+int main()
+{
+    int a, b;
+    printf("enter a");
+    scanf("%d", &a);
 
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
+    printf("enter b");
+    scanf("%d", &b);
 
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-    printf("%d\n", ++n);
-
+    int sum = a + b;
+printf("sum is : %d", sum);
     return 0;
 }
+
+// compilation --> a computer program  that translates c code into machine code 
